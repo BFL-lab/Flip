@@ -49,12 +49,3 @@ NOTES
 -----
 
 It is possible that the flip.1 file is not up to date. 
-
-
-BUG REPORTS
------------
-
-Please send all bug reports, comments and success stories to:
-
-  b.franz.lang@gmail.com
-
