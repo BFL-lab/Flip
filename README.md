@@ -5,7 +5,7 @@ flip - translates and reformats DNA sequences
 
 This package is based on activities of the [OGMP](http://megasun.bch.umontreal.ca/ogmp/) (i.e, priori to 2002), and
 becomes open source as part of [MFannot](http://megasun.bch.umontreal.ca/RNAweasel/).
-Note: Original coder was B.F Lang and Nicolas Brossard
+Note: Original coder was B.F Lang and Nicolas Brossard.
 
 PACKAGE CONTENTS
 ----------------
