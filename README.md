@@ -3,10 +3,8 @@ This is flip, version 2.1.2.
 
 flip - translates and reformats DNA sequences
 
-This package is based on old work that was done at the [OGMP](http://megasun.bch.umontreal.ca/ogmp/),
-we decide to put this work open source in order to put [MFannot](http://megasun.bch.umontreal.ca/RNAweasel/) open source.
-For sure lot of other bioinformatics tools does the same thing.
-
+This package is based on activities of the [OGMP](http://megasun.bch.umontreal.ca/ogmp/) (i.e, priori to 2002), and
+becomes open source as part of [MFannot](http://megasun.bch.umontreal.ca/RNAweasel/).(Original coder: B.F Lang and Nicolas Brossard)
 
 PACKAGE CONTENTS
 ----------------
@@ -37,13 +35,11 @@ HOW TO BUILD THE EXECUTABLE
 LIMITATIONS
 -----------
 
-- Flip can handle sequences of at most 400000 nucleotides. If this is
-  too much of a restriction, try increasing MAX_SEQ_LG in flip.h.
+- Flip can handle sequences of at most 400,000 nucleotides. To accept longer sequences, try
+   increasing MAX_SEQ_LG in flip.h..
 
-- Flip will truncate lines that are longer than 5000 characters in the
-  input file supplied on the command line. If it's a limitation for you, try
-  increasing MAX_LINE_LG in flip.h.
-
+- Flip will truncate lines that are longer than 5000 characters in the input file. For more
+   characters per line, try increasing MAX_LINE_LG in flip.h.
 
 NOTES
 -----
